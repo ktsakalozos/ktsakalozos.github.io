@@ -4,6 +4,5 @@ layout: default
 
 ## Welcome to another page
 
-_yay_
+https://ktsakalozos.medium.com/
 
-[back](./)
