@@ -13,21 +13,26 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <p><a href="{{ "/index" | absolute_url }}">Home</a></p>
-        <p><a href="https://ktsakalozos.medium.com/">Blog posts</a></p>
-        <p><a href="{{ "/papers/index" | absolute_url }}">Papers</a></p>
-        <p> </p>
-        <p><a href="{{ "/about/index" | absolute_url }}">About</a></p>
+      <div class="wrapper">
+        <div class="sidenav">
+          <header>
+          <br>
+          <br>
+          <br>
+          <p><a href="{{ "/index" | absolute_url }}">Home</a></p>
+          <p><a href="https://ktsakalozos.medium.com/">Blog posts</a></p>
+          <p><a href="{{ "/papers/index" | absolute_url }}">Papers</a></p>
+          <p><a href="{{ "/about/index" | absolute_url }}">About</a></p>
+          
+        </header>
+      </div>
         
-      </header>
-      <section>
+        <section>
 
-      {{ content }}
+        {{ content }}
 
-      </section>
+        </section>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
 </html>
